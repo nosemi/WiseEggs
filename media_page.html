@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Social Media</title>
+  <link rel="stylesheet" href="media_style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+  crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div id="sidebar">
+		<div class="toggle-btn" onclick="toggleSidebar()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul>
+			<li><a href="home_page.html">Home</a></li>
+			<li><a href="background_page.html">Background</a></li>
+			<li><a href="recipe_page.html">Recipes</a></li>
+      <li><a href="timeline_page.html">Timeline</a></li>
+			<li><a href="faq_page.html">FAQ</a></li>
+		</ul>
+	</div>
+
+  <div class="icons">
+  <ul>
+    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+  </ul>
+</div>
+
+  <script type="text/javascript">
+  	function toggleSidebar() {
+  		document.getElementById("sidebar").classList.toggle("active");
+  	}
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAQ</title>
+	<link rel="stylesheet" href="faq_style.css">
+	<script src="faq_page.js"></script>
+</head>
+
+<body>
+	<div id="sidebar">
+		<div class="toggle-btn" onclick="toggleSidebar()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul>
+			<li><a href="home_page.html">Home</a></li>
+			<li><a href="background_page.html">Background</a></li>
+			<li><a href="timeline_page.html">Timeline</a></li>
+			<li><a href="recipe_page.html">Recipes</a></li>
+			<li><a href="media_page.html">Contact</a></li>
+		</ul>
+	</div>
+
+	<h1>F<em>requently</em> A<em>sked</em> Q<em>uestions</em></h1>
+
+	<button class="all-btn" onclick="showAllAnswers()">Show All</button>
+	<button class="all-btn" onclick="closeAllAnswers()">Close All</button>
+
+	<div class="faq">
+		<div class="question">
+			<h3 onclick="toggleAnswer(this)">Are eggs baby chickens?</h3>
+			<div class="answer">
+				<p>No, they are not. Eggs are the unfertilized ova from a hen's ovary, meaning a male chicken's sperm has not reached it yet. Therefore, the egg does not have the potential to become a chick.</p>
+			</div>
+		</div>
+		<div class="question">
+			<h3>What diet allows the consumption of eggs?</h3>
+			<div class="answer">
+				<p>Eggs are a part of a vegetarian, paleo, regular omnivore, pescatarian, gluten-free, and keto diet. Of course, one can be on one of these diets and still prefer to leave out eggs. It depends on your personal health, goals, and preferences.</p>
+			</div>
+		</div>
+		<div class="question">
+			<h3>Are chickens harmed in the egg industry?</h3>
+			<div class="answer">
+				<p>I am not an expert on what goes on in the egg industry, but from what I've heard and read, some companies do not treat their chickens (or other animals for that matter) correctly. Yes, chickens do naturally lay eggs, but the average wild chicken will probably lay about 15 to 20 eggs <em>a year</em>, a drastic difference from the commercial hens. Commercial hens are fed, modified, and bred to lay anywhere from 250 to 300 eggs a year, almost 15 times the amount a wild hen would. Developing and producing an egg is very strenuous for the chicken's body. Because of this, commercial chickens are most likely constantly tired and weak. So in a way, yes, the chickens in the egg industry are affected negatively. In addition, some places break the chicken's beak (called debeaking) so that the chicken does not peck itself or another.</p>
+			</div>
+		</div>
+		<div class="question">
+			<h3>What do different egg labels mean? Such as farm raised, cage-free, etc.</h3>
+			<div class="answer">
+				<ul>
+					<li><strong>Cage-Free:</strong> Chickens are not kept in cages and are free to roam. This does not mean they are able to be outside. This does not exempt them from traditional egg industry behaviors such as cutting beaks and being force fed.</li>
+					<li><strong>Free-Range:</strong> Chickens are not kept in cages and are free to roam. They are also able to be outside. This does not exempt them from traditional egg industry behaviors such as cutting beaks and being force fed.</li>
+					<li><strong>Pasture-Raised:</strong> Chickens are not kept in cages and are free to roam. They are also able to be outside. This does not exempt them from traditional egg industry behaviors such as cutting beaks and being force fed. </li>
+					<li><strong>Certified Organic:</strong> Chickens are not kept in cages and are free to roam. They are also able to be outside. This does not exempt them from traditional egg industry behaviors such as cutting beaks and being force fed.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="question">
+			<h3>Are you actually for eggs or against them?</h3>
+			<div class="answer">
+				<p>In all honesty, I built and wrote this website in order to share the information, history, and common recipes of the egg. I think eggs are extremely versatile as a food and quite fun to cook. Should an egg unexpectedly break, simply make scrambled eggs. However, I do not like the egg industry. Hens do not deserve to be treated the way they do with limited space and broken limbs (I say limbs but I mean beaks, wings, legs...). I do not advocate the industry. If you really want to eat eggs without feeling the guilt of how the egg industry works, raise your own chickens and let them lay eggs at their own steady pace. It will not be as often as commercial hens, but they will be happier and safer. Interpret this how you will, but I will say I eat eggs almost daily.</p>
+			</div>
+		</div>
+		<div class="question">
+			<h3>What is the difference between white and brown eggs?</h3>
+			<div class="answer">
+				<p>They are all the same egg, but the egg color depends on the chicken. Usually white feathered chickens lay white eggs and brown or more dark colored chickens lay brown eggs. Nutritionally, they are one and the same.</p>
+			</div>
+		</div>
+		<div class="question">
+			<h3>Do you recommend any egg brands?</h3>
+			<div class="answer">
+				<p>I do. I was recently researching egg brands and facilities that treat their chickens with respect and do not mutilate or force them into uncomfortable situations. These brands were <a href="https://nelliesfreerange.com" target="_blank">Nellies Free Range Eggs</a> and <a href="https://peteandgerrys.com" target="_blank">Pete and Gerry's Organic Eggs</a>. They are related but Pete and Gerry's are organic, meaning their chickens are fed exclusively organic grain (free of pesticides and GMOs). I recommend these brands becuase they are certified humane (more info <a href="https://certifiedhumane.org" target="_blank">here</a>) and they say they give their chickens enough space. They have a Questions tab where you can read further details about their business.</p>
+			</div>
+		</div>
+		<div class="question">
+			<h3>What are the nutritional contents of the yolk and egg white?</h3>
+			<div class="answer">
+				<p>I explain this in the <a href="background_page.html">Background</a> page but here is a quick summary. The egg white is mostly protien and does not hold the vitamins, minerals, and whatnot. The egg yolk carries these nutritional components, along with the "feared" cholesterol. There are debates on whether cholesterol from egg is beneficial or not.</p>
+			</div>
+		</div>
+		<div class="question">
+			<h3>What is the best way to peel a hard-boiled egg?</h3>
+			<div class="answer">
+				<p>I have heard several techniques that could possible work such as cracking the tip and then blowing out; I have never tried this way but it sounds possible. Personally, I gently crack the shell all around with a spoon then place it under running water and start peeling. Usually, this results in very smooth results. Sometimes I will not keep it under running water but simply make sure the egg is completely wet after being cracked. Another technique I&apos;ve seen among Korean people is gently rolling the egg on a flat surface; I would not suggest this method with soft boiled eggs. In the past, I cut off both ends then carefully picked away and hoped that large pieces would come off, but I have not used this method in a long time and cannot guarantee its success. A quick search on Google will provide you with many more fun and perhaps better ways.</p>
+			</div>
+		</div>
+		<div class="question">
+			<h3>Why is an egg shaped the way it is? Pointed and rounded ends...</h3>
+			<div class="answer">
+				<p>Eggs have a tapered end to prevent them from rolling out of a nest; instead, they roll in a circular direction. Due to evolution, birds that lay eggs on more narrow and high areas have more oval-shaped eggs for less rolling. In addition, this egg shape is the msot ideal for the average hen to push out.</p>
+			</div>
+		</div>
+	</div>
+	
+	<!--
+	<h4><a href="#q1">Are eggs baby chickens?</a></h4>
+	<h4><a href="#q2">What diet allows the consumption of eggs?</a></h4>
+	<h4><a href="#q3">Are chickens harmed in the egg industry?</a></h4>
+	<h4><a href="#q4">What do different egg labels mean? Such as farm raised, cage-free, etc.</a></h4>
+	<h4><a href="#q5">Are you actually for eggs or against them?</a></h4>
+	<h4><a href="#q6">What is the difference between white and brown eggs?</a></h4>
+	<h4><a href="#q7">Do you recommend any egg brands?</a></h4>
+	<h4><a href="#q8">What are the nutritional contents of the yolk and egg white?</a></h4>
+	<h4><a href="#q9">What is the best way to peel a hard-boiled egg?</a></h4>
+	<h4><a href="#q10">Why is an egg shaped that way it is? Pointed and rounded ends...</a></h4>
+
+	<hr>
+
+	<p id="q1" class="questions">Are eggs baby chickens?</p>
+	<p>No, they are not. Eggs are the unfertilized ova from a hen's ovary, meaning a male chicken's sperm has not reached it yet. Therefore, the egg does not have the potential to become a chick.</p>
+	<br>
+	<p id="q2" class="questions">What diet allows the consumption of eggs?</p>
+	<p>Eggs are a part of a vegetarian, paleo, regular omnivore, pescatarian, gluten-free, and keto diet. Of course, one can be on one of these diets and still prefer to leave out eggs. It depends on your personal health, goals, and preferences.</p>
+	<br>
+	<p id="q3" class="questions">Are chickens harmed in the egg industry?</p>
+	<p>I am not an expert on what goes on in the egg industry, but from what I've heard and read, some companies do not treat their chickens (or other animals for that matter) correctly. Yes, chickens do naturally lay eggs, but the average wild chicken will probably lay about 15 to 20 eggs <em>a year</em>, a drastic difference from the commercial hens. Commercial hens are fed, modified, and bred to lay anywhere from 250 to 300 eggs a year, almost 15 times the amount a wild hen would. Developing and producing an egg is very strenuous for the chicken's body. Because of this, commercial chickens are most likely constantly tired and weak. So in a way, yes, the chickens in the egg industry are affected negatively. In addition, some places break the chicken's beak (called debeaking) so that the chicken does not peck itself or another.</p>
+	<br>
+	<p id="q4" class="questions">What do different egg labels mean? Such as farm raised, cage-free, etc.</p>
+	<ul>
+		<li><strong>Cage-Free:</strong> Chickens are not kept in cages and are free to roam. This does not mean they are able to be outside. This does not exempt them from traditional egg industry behaviors such as cutting beaks and being force fed.</li>
+		<li><strong>Free-Range:</strong> Chickens are not kept in cages and are free to roam. They are also able to be outside. This does not exempt them from traditional egg industry behaviors such as cutting beaks and being force fed.</li>
+		<li><strong>Pasture-Raised:</strong> Chickens are not kept in cages and are free to roam. They are also able to be outside. This does not exempt them from traditional egg industry behaviors such as cutting beaks and being force fed. </li>
+		<li><strong>Certified Organic:</strong> Chickens are not kept in cages and are free to roam. They are also able to be outside. This does not exempt them from traditional egg industry behaviors such as cutting beaks and being force fed.</li>
+	</ul>
+	<br>
+	<p id="q5" class="questions">Are you actually for eggs or against them?</p>
+	<p>In all honesty, I built and wrote this website in order to share the information, history, and common recipes of the egg. I think eggs are extremely versatile as a food and quite fun to cook. Should an egg unexpectedly break, simple make scrambled eggs. However, I do not like the egg industry. Hens do not deserve to be treated the way they do with limited space and broken limbs (I say limbs but I mean beaks, wings, legs...). I do not advocate the industry. If you really want to eat eggs without feeling the guilt of how the egg industry works, raise your own chickens and let them lay eggs at their own steady pace. It will not be as often as commercial hens but they will be happier and safer. Despite my enthusiasm for the egg, I do not eat them very often, rarely in fact, and I do not eat meat or poultry.</p>
+	<br>
+	<p id="q6" class="questions">What is the difference between white and brown eggs?</p>
+	<p>They are all the same egg, but the egg color depends on the chicken. Usually white feathered chickens lay white eggs and brown or more dark colored chickens lay brown eggs. Nutritionally, they are one and the same.</p>
+	<br>
+	<p id="q7" class="questions">Do you recommend any egg brands?</p>
+	<p>I do. I was recently researching egg brands and facilities that treat their chickens with respect and do not mutilate or force them into uncomfortable situations. These brands were <a href="https://nelliesfreerange.com" target="_blank">Nellies Free Range Eggs</a> and <a href="https://peteandgerrys.com" target="_blank">Pete and Gerry's Organic Eggs</a>. They are related but Pete and Gerry's are organic, meaning their chickens are fed exclusively organic grain (free of pesticides and GMOs). I recommend these brands becuase they are certified humane (more info <a href="https://certifiedhumane.org" target="_blank">here</a>) and they say they give their chickens enough space. They have a Questions tab where you can read further details about their business.</p>
+	<br>
+	<p id="q8" class="questions">What are the nutritional contents of the yolk and egg white?</p>
+	<p>I explain this in the <a href="background_page.html">Background</a> page but here is a quick summary. The egg white is mostly protien and does not hold the vitamins, minerals, and whatnot. The egg yolk carries these nutritional components, along with the "feared" cholesterol. There are debates on whether cholesterol from egg is beneficial or not.</p>
+	<br>
+	<p id="q9" class="questions">What is the best way to peel a hard-boiled egg?</p>
+	<p>I have heard several techniques that could possible work such as cracking the tip and then blowing out; I have never tried this way but it sounds possible. Personally, I cut off both ends then carefully pick away and hopefully they come off in large pieces. I know this is not some profound way but it is the way I do it. A quick search on Google will provide you with many more fun and perhaps better ways.</p>
+	<br>
+	<p id="q10" class="questions">Why is an egg shaped that way it is? Pointed and rounded ends...</p>
+	<p>Eggs have a tapered end to prevent them from rolling out of a nest; instead, they roll in a circular direction. Due to evolution, birds that lay eggs on more narrow and high areas have more oval-shaped eggs for less rolling. In addition, this egg shape is the msot ideal for the average hen to push out.</p>
+-->
+	
+
+	<footer>
+	   <div class="wrapper">
+	     <nav>
+	       <ul>
+	         <li><a href="home_page.html">Home</a></li>
+					<li><a href="background_page.html">Background</a></li>
+	         <li><a href="timeline_page.html">Timeline</a></li>
+	          <li><a href="recipe_page.html">Recipes</a></li>
+	          <li><a href="faq_page.html">FAQ</a></li>
+	          <li><a href="media_page.html">Contact</a></li>
+	        </ul>
+	      </nav>
+	    </div>
+	    <br>
+	    <p class="copyright">Wise Eggs &copy 2018 - All Rights Reserved</p>
+	  </footer>
+
+<!--
+<script type="text/javascript">
+	function toggleSidebar() {
+		document.getElementById("sidebar").classList.toggle("active");
+	}
+	function toggleAnswer() {
+		document.addEventListener('DOMContentLoaded', function() {
+			const questions = document.querySelectorAll('.question h3');
+
+			questions.forEach(function(question) {
+				question.addEventListener('click', function() {
+					const answer = this.nextElementSibling;
+					answer.classList.toggle('active');
+				});
+			});
+		});
+	}
+</script>
+-->
+
+</body>
+</html>

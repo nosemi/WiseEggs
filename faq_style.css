@@ -1,0 +1,127 @@
+body {
+  font-family: "Optima", sans-serif;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+h1 {
+  color: grey;
+  text-align: center;
+}
+/*
+h4, p, li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h4 a {
+  text-decoration: none;
+  color: #8b0000;
+}
+.questions {
+  font-style: italic;
+  font-size: 17px;
+  color: #006666;
+} 
+*/
+.question {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.question h3 {
+  cursor: pointer;
+  font-style: italic;
+  color: #006666;
+}
+.answer {
+  display: none;
+  border-left: 1px solid black;
+  border-bottom: 3px double black;
+  border-right: 1px solid black;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+.answer.active {
+  display: block;
+}
+
+#sidebar {
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  background: #9fc5c6;
+  left: -200px;
+  transition: all 500ms linear;
+  top: 0;
+  cursor: pointer;
+}
+#sidebar a {
+  text-decoration: none;
+  color: white;
+  font-family: Times;
+}
+#sidebar.active {
+  left: 0;
+}
+#sidebar ul li {
+  color: rgba(230,230,230,0.9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid grey;
+}
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+}
+#sidebar .toggle-btn span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #151719;
+  margin: 5px 0px;
+}
+
+footer {
+  width: 100%;
+  background-color: #404040;
+  padding: 30px 0;
+  margin-top: 10%;
+}
+nav {
+  float: left;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  color: #f2f2f2;
+}
+.copyright {
+  font-size: 15px;
+  text-align: center;
+}
+.all-btn {
+  padding: 10px 20px; 
+  background-color: #CCFF99; 
+  color: black;
+  font-size: 15px; 
+  border: none; 
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer;
+  margin-right: 10px; 
+  margin-left: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.all-btn:hover {
+  background-color: #00CC66;
+}
