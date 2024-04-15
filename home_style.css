@@ -1,0 +1,154 @@
+h1 {
+  text-align: center;
+  color: #7c795d;
+  font-size: 70px;
+  font-family: "Trocchi", serif;
+  font-weight: normal;
+  margin-bottom: 15px;
+  position: relative;
+  top: 30px;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: white;
+}
+
+.menu {
+  overflow: hidden;
+  background-color: #b3b3cc;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.menu a:hover {
+  background-color: #e0e0eb;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.container {
+  margin: auto;
+  margin-top: 75px;
+  position: relative;
+  width: 70%;
+  height: 0;
+  padding-bottom: 40%;
+  background: white;
+}
+.slide_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide_img img {
+  width: 100%;
+  height: 100%;
+}
+#i1, #i2, #i3, #i4, #i5 {
+  display: none;
+}
+.pre, .nxt {
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(88,88,88,.2);
+  z-index: 99;
+  cursor: pointer;
+}
+.pre {
+  left: 0;
+}
+.nxt {
+  right: 0;
+}
+.nav {
+  width: 100%;
+  height: 11px;
+  bottom: 12%;
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+}
+.dots {
+  top: -5px;
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+  background: rgba(0,0,0,.6);
+}
+.slide_img {
+  z-index: -1;
+}
+
+/*
+:checked selector matches every checked <input>
+Only for radio buttons, checkboxes, and <option> element
+*/
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five {
+  z-index: 9;
+}
+
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3,
+#i4:checked ~ .nav #dot4,
+#i5:checked ~ .nav #dot5 {
+   background: #fff;
+}
+
+footer {
+  width: 100%;
+  background-color: #404040;
+  padding: 30px 0;
+  margin-top: 10%;
+}
+nav {
+  float: left;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  color: #f2f2f2;
+}
+.copyright {
+  font-size: 15px;
+  text-align: center;
+}
+.search-btn {
+  border: none;
+  cursor: pointer;
+  float: right;
+  background-color: #b3b3cc;
+  padding-right: 20px;
+}

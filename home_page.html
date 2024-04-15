@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="home_page.js"></script>
+  <link rel="stylesheet" href="home_style.css">
+
+  <title>Wise Eggs</title>
+
+</head>
+<body>
+  <h1>Wise Eggs</h1>
+
+  <!--
+  <div class="logo">
+    <img src="images/deviled_egg.jpeg" height="100" width="150">
+  </div> 
+  -->
+
+  <div class="menu">
+    <a href="background_page.html">Background</a>
+    <a href="timeline_page.html">Timeline</a>
+    <a href="recipe_page.html">Recipes</a>
+    <a href="faq_page.html">FAQ</a>
+    <a href="media_page.html">Contact</a>
+
+    <button class="search-btn">
+      <img src="images/mag_glasses.png" alt="Search Icon" height="45" width="45">
+    </button>
+  </div>
+
+  <div class="container">
+<!--
+radio groups are for collections of radio buttons (small circles) that describe
+the set of related options
+-->
+    <input type="radio" name="images" id="i1" checked>
+    <input type="radio" name="images" id="i2">
+    <input type="radio" name="images" id="i3">
+    <input type="radio" name="images" id="i4">
+    <input type="radio" name="images" id="i5">
+
+    <div class="slide_img" id="one">
+      <img src="images/egg_oatmeal.jpg">
+      <label for="i5" class="pre"></label>
+      <label for="i2" class="nxt"></label>
+    </div>
+    <div class="slide_img" id="two">
+      <img src="images/fried_egg.jpg">
+      <label for="i1" class="pre"></label>
+      <label for="i3" class="nxt"></label>
+    </div>
+    <div class="slide_img" id="three">
+      <img src="images/poach_egg.jpeg">
+      <label for="i2" class="pre"></label>
+      <label for="i4" class="nxt"></label>
+    </div>
+    <div class="slide_img" id="four">
+      <img src="images/egg_cookedsalmon.jpg">
+      <label for="i3" class="pre"></label>
+      <label for="i5" class="nxt"></label>
+    </div>
+    <div class="slide_img" id="five">
+      <img src="images/brunch.jpg">
+      <label for="i4" class="pre"></label>
+      <label for="i1" class="nxt"></label>
+    </div>
+
+    <div class="nav">
+<!--
+<label> element provides usability for mouse users; if user clicks on text
+inside <label> element, it toggles a control
+-->
+      <label class="dots" id="dot1" for="i1"></label>
+      <label class="dots" id="dot2" for="i2"></label>
+      <label class="dots" id="dot3" for="i3"></label>
+      <label class="dots" id="dot4" for="i4"></label>
+      <label class="dots" id="dot5" for="i5"></label>
+    </div>
+  </div>
+  <br>
+
+  <footer>
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li><a href="home_page.html">Home</a></li>
+          <li><a href="background_page.html">Background</a></li>
+          <li><a href="timeline_page.html">Timeline</a></li>
+          <li><a href="recipe_page.html">Recipes</a></li>
+          <li><a href="faq_page.html">FAQ</a></li>
+          <li><a href="media_page.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <br>
+    <p class="copyright">Wise Eggs &copy 2018 - All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
